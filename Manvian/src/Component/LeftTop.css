@@ -1,0 +1,38 @@
+.shape-wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.shape {
+  
+  height: 100%;
+  background-color: rgb(184, 113, 113);
+  clip-path: path("M 25,200 L 225,200 L 250,200 A 25,25 0,0,0 275,175 L 275,50  L 275,25  A 25,25 0,0,1 300,0 L 325,0  L 450,0 L 425,0 A 25,25 0,0,1 450,25 L 450,175 L 500,200 L 450,225 450,450 L 450,475 A 25,25 0,0,1 425,500 L 50,500 L 25,500 A 25,25 0,0,1 0,475 L 0,250 L 0,225 A 25,25 0,0,1 25,200 Z");
+  
+  z-index: 2;
+}
+
+.shape::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  clip-path: path("M 25,200 L 225,200 L 250,200 A 25,25 0,0,0 275,175 L 275,50  L 275,25  A 25,25 0,0,1 300,0 L 325,0  L 450,0 L 425,0 A 25,25 0,0,1 450,25 L 450,175 L 500,200 L 450,225 450,450 L 450,475 A 25,25 0,0,1 425,500 L 50,500 L 25,500 A 25,25 0,0,1 0,475 L 0,250 L 0,225 A 25,25 0,0,1 25,200 Z");
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  
+
+   display: flex;
+  justify-content: flex-end; /* pushes image to the right */
+  align-items: center;       /* centers image vertically */
+  padding-right: 30px;       /* adds spacing from the right edge */
+  box-sizing: border-box; 
+}
+.shape img {
+  height: 80px;
+  
+}
+

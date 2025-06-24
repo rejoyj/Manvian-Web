@@ -1,0 +1,20 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.row{
+  padding: 2rem;
+}
+.top-name{
+  position: relative;
+}
+.middle{
+  position: absolute;
+}
+.end{
+  position: absolute;
+ 
+}
+
