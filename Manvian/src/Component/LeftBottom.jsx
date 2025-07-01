@@ -5,8 +5,8 @@ const LeftBottom = () => {
   return (
     <>
       <div className="main">
-        <div className="container">
-          {/* <p>
+        <div className="container-lb">
+          <p>
             To be a global force for good - To inspire a world where businesses
             are built not just to succeed, but to serve by redefining the way
             the world does business by building ventures that focus on people ,
@@ -14,7 +14,7 @@ const LeftBottom = () => {
             where growth is not just measured by numbers, but by the value we
             create for communities, the opportunities we unlock for individuals,
             and the positive impact we leave on the planet.)
-          </p> */}
+          </p>
             <img src="\src\assets\image.png" alt="" width={669} height={636}  style={{ transform: 'rotate(270deg)', transformOrigin: 'center' }}/>
         </div>
         <div className="icon-left-bottom">
