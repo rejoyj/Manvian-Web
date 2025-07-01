@@ -21,6 +21,12 @@
   padding-top: 20px;
 }
 
+.icon-left{
+  position: absolute;
+   top: 120px;
+    left: 120px;
+}
+
 
 .blue-box-rt h1 {
   position: absolute;

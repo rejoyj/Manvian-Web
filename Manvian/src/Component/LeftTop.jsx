@@ -17,6 +17,9 @@ const LeftTop = () => {
           </p>
           <img src="\src\assets\image.png" alt="" width={669} height={636} />
         </div>
+        <div className="icon">
+          <img src="\src\assets\Icon.png" alt="" width={182} height={182} />
+        </div>
         <div className="blue-box">
           <img
             src="\src\assets\bluebox.png "
@@ -29,6 +32,7 @@ const LeftTop = () => {
             <h1>Our Vision</h1>
           </strong>
         </div>
+      
       </div>
     </>
   );

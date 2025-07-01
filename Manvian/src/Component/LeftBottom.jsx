@@ -17,6 +17,9 @@ const LeftBottom = () => {
           </p> */}
             <img src="\src\assets\image.png" alt="" width={669} height={636}  style={{ transform: 'rotate(270deg)', transformOrigin: 'center' }}/>
         </div>
+        <div className="icon-left-bottom">
+           <img src="\src\assets\Icon4.png" alt="" width={182} height={182} />
+        </div>
         <div className="blue-box-lb">
           <img
             src="\src\assets\bluebox.png "

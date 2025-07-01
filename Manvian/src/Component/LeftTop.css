@@ -20,6 +20,11 @@
   padding-top: 25px;
 }
 
+.icon{
+  position: absolute;
+  top: 120px;
+  right: 120px;
+}
 .blue-box h1 {
   position: absolute;
 

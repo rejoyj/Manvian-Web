@@ -13,6 +13,12 @@
   padding-top: 25px;
 }
 
+.icon-left-bottom{
+position: absolute;
+ bottom: 120px;
+right: 120px;
+}
+
 .blue-box-lb {
   position: absolute;
   top: 70px; /* adjust as needed */

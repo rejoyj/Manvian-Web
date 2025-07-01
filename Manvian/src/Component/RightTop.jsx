@@ -17,6 +17,9 @@ const RightTop = () => {
           </p>
           <img src="\src\assets\image.png" alt="" width={669} height={636} style={{ transform: 'rotate(90deg)', transformOrigin: 'center' }} />
         </div>
+         <div className="icon-left">
+          <img src="\src\assets\icon2.png" alt="" width={182} height={182} />
+        </div>
         <div className="blue-box-rt">
           <img
             src="\src\assets\bluebox.png "
