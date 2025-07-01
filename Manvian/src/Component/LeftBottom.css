@@ -9,17 +9,24 @@
   position: relative;
   display: inline-block;
 
+<<<<<<< Updated upstream
 }
 
 .icon-left-bottom{
 position: absolute;
  bottom: 40px;
 right: 100px;
+=======
+>>>>>>> Stashed changes
 }
 
 .blue-box-lb {
   position: absolute;
+<<<<<<< Updated upstream
   top: -25px; /* adjust as needed */
+=======
+  top: -15px; /* adjust as needed */
+>>>>>>> Stashed changes
   left: 0px; /* adjust as needed */
   z-index: 1;
   padding-top: 350px;
