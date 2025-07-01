@@ -8,21 +8,19 @@
     
   position: relative;
   display: inline-block;
-  margin: 50px;
-  padding-left: 25px;
-  padding-top: 25px;
+
 }
 
 .icon-left-bottom{
 position: absolute;
- bottom: 120px;
-right: 120px;
+ bottom: 40px;
+right: 100px;
 }
 
 .blue-box-lb {
   position: absolute;
-  top: 70px; /* adjust as needed */
-  left: 45px; /* adjust as needed */
+  top: -25px; /* adjust as needed */
+  left: 0px; /* adjust as needed */
   z-index: 1;
   padding-top: 350px;
 }
@@ -40,10 +38,10 @@ right: 120px;
 
 .container-lb p {
   position: absolute;
-  top: 100px; /* Adjust as needed */
+  top: 50px; /* Adjust as needed */
   left: 65px; /* Adjust as needed */
   color: black;
-  font-size: 21px;
+  font-size: 18px;
   max-width: 80%;
   z-index: 2;
 }

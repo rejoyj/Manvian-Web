@@ -7,13 +7,19 @@ const LeftBottom = () => {
       <div className="main">
         <div className="container-lb">
           <p>
-            To be a global force for good - To inspire a world where businesses
-            are built not just to succeed, but to serve by redefining the way
-            the world does business by building ventures that focus on people ,
-            planet and purpose by creating lasting value. (We envision a world
-            where growth is not just measured by numbers, but by the value we
-            create for communities, the opportunities we unlock for individuals,
-            and the positive impact we leave on the planet.)
+            At Manvian, we’re driven by clear objectives: <br />
+
+Create Pathways & Opportunity <br />
+Unlocking entrepreneurial potential for all—regardless of background. <br />
+
+Empower Diverse Entrepreneurs <br />
+Championing women empowerment, equity, and inclusive growth. <br />
+
+Drive Positive Impact <br />
+Advancing sustainable practices and community upliftment. <br />
+
+Deliver Measurable Growth <br />
+Ensuring ROI, scalability, and lasting market leadership <br />
           </p>
             <img src="\src\assets\image.png" alt="" width={669} height={636}  style={{ transform: 'rotate(270deg)', transformOrigin: 'center' }}/>
         </div>
@@ -30,7 +36,7 @@ const LeftBottom = () => {
             style={{ transform: 'rotate(180deg)', transformOrigin: 'center' }}
           />
           <strong>
-            <h1>Our Vision</h1>
+            <h1>Our Goal</h1>
           </strong>
         </div>
       </div>

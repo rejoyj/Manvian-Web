@@ -8,22 +8,20 @@
     
   position: relative;
   display: inline-block;
-  margin: 50px;
-  padding-left: 25px;
   padding-top: 25px;
 }
 
 .blue-box-rt {
   position: absolute;
-  top: 70px; /* adjust as needed */
-  right: 55px; /* adjust as needed */
+  top: 20px; /* adjust as needed */
+  right: 0px; /* adjust as needed */
   z-index: 1;
   padding-top: 20px;
 }
 
 .icon-left{
   position: absolute;
-   top: 120px;
+   top: 50px;
     left: 120px;
 }
 

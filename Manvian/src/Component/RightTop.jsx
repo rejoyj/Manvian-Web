@@ -7,17 +7,22 @@ const RightTop = () => {
       <div className="main">
         <div className="container-rt">
           <p>
-            To be a global force for good - To inspire a world where businesses
-            are built not just to succeed, but to serve by redefining the way
-            the world does business by building ventures that focus on people ,
-            planet and purpose by creating lasting value. (We envision a world
-            where growth is not just measured by numbers, but by the value we
-            create for communities, the opportunities we unlock for individuals,
-            and the positive impact we leave on the planet.)
+            At the heart of Manvian is the belief that success is best shared.
+            Our mission is to empower businesses to unlock their true potential.
+            We partner with visionary leaders to craft innovative, personalized
+            strategies that not only drive revenue but also build authentic
+            brand identities, elevate client experiences, and create lasting
+            value with ROI.
           </p>
-          <img src="\src\assets\image.png" alt="" width={669} height={636} style={{ transform: 'rotate(90deg)', transformOrigin: 'center' }} />
+          <img
+            src="\src\assets\image.png"
+            alt=""
+            width={669}
+            height={636}
+            style={{ transform: "rotate(90deg)", transformOrigin: "center" }}
+          />
         </div>
-         <div className="icon-left">
+        <div className="icon-left">
           <img src="\src\assets\icon2.png" alt="" width={182} height={182} />
         </div>
         <div className="blue-box-rt">
@@ -29,7 +34,7 @@ const RightTop = () => {
             className="two"
           />
           <strong>
-            <h1>Our Vision</h1>
+            <h1>Our Mission</h1>
           </strong>
         </div>
       </div>

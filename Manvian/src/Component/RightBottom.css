@@ -15,14 +15,14 @@
 
 .icon-bottom{
   position: absolute;
-  bottom: 120px;
+  bottom: 50px;
   left: 120px;
 }
 
 .blue-box-rb {
   position: absolute;
-  top: 20px; /* adjust as needed */
-  right: 15px; /* adjust as needed */
+  top: -10px; 
+  right: 15px; 
   z-index: 1;
   padding-top: 350px;
 }
@@ -30,9 +30,9 @@
 .blue-box-rb h1 {
   position: absolute;
 
-  top: 75%; /* vertical center */
-  left: 50%; /* horizontal center */
-  transform: translate(-50%, -50%); /* center alignment */
+  top: 75%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
   color: white;
   font-size: 30px;
   text-align: center;
@@ -43,7 +43,7 @@
   top: 75px;
   right: 25px; /* Adjust as needed */
   color: black;
-  font-size: 21px;
+  font-size: 17px;
   max-width: 80%;
   z-index: 2;
 }

@@ -13,7 +13,7 @@ const LeftTop = () => {
             planet and purpose by creating lasting value. (We envision a world
             where growth is not just measured by numbers, but by the value we
             create for communities, the opportunities we unlock for individuals,
-            and the positive impact we leave on the planet.)
+            and the positive impact we leave on the planet.)
           </p>
           <img src="\src\assets\image.png" alt="" width={669} height={636} />
         </div>
@@ -32,7 +32,6 @@ const LeftTop = () => {
             <h1>Our Vision</h1>
           </strong>
         </div>
-      
       </div>
     </>
   );

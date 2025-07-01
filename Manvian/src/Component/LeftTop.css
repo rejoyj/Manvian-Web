@@ -7,14 +7,11 @@
 .container {
   position: relative;
   display: inline-block;
-  margin: 50px;
-  /* padding-left: 25px; */
-  padding-top: 25px;
 }
 
 .blue-box {
   position: absolute;
-  top: 70px; /* adjust as needed */
+  top: 0px; /* adjust as needed */
   left: 15px; /* adjust as needed */
   z-index: 1;
   padding-top: 25px;
@@ -22,7 +19,7 @@
 
 .icon{
   position: absolute;
-  top: 120px;
+  top: 40px;
   right: 120px;
 }
 .blue-box h1 {
@@ -39,7 +36,7 @@
 .container p {
   position: absolute;
   bottom: 45px;
-  left: 25px; /* Adjust as needed */
+  left: 30px; /* Adjust as needed */
   color: black;
   font-size: 21px;
   max-width: 80%;
