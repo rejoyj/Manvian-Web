@@ -5,7 +5,7 @@ const RightTop = () => {
   return (
     <>
       <div className="main">
-        <div className="container">
+        <div className="container-rt">
           <p>
             To be a global force for good - To inspire a world where businesses
             are built not just to succeed, but to serve by redefining the way
