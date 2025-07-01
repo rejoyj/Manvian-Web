@@ -13,15 +13,16 @@
   padding-top: 25px;
 }
 
-.blue-box {
+.blue-box-rt {
   position: absolute;
   top: 70px; /* adjust as needed */
-  left: 15px; /* adjust as needed */
+  right: 15px; /* adjust as needed */
   z-index: 1;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
-.blue-box h1 {
+
+.blue-box-rt h1 {
   position: absolute;
 
   top: 50%; /* vertical center */

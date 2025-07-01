@@ -15,9 +15,9 @@ const RightTop = () => {
             create for communities, the opportunities we unlock for individuals,
             and the positive impact we leave on the planet.)
           </p>
-          <img src="\src\assets\image.png" alt="" width={669} height={636} />
+          <img src="\src\assets\image.png" alt="" width={669} height={636} style={{ transform: 'rotate(90deg)', transformOrigin: 'center' }} />
         </div>
-        <div className="blue-box">
+        <div className="blue-box-rt">
           <img
             src="\src\assets\bluebox.png "
             alt=""

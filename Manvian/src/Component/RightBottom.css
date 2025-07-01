@@ -13,18 +13,18 @@
   padding-top: 25px;
 }
 
-.blue-box {
+.blue-box-rb {
   position: absolute;
   top: 70px; /* adjust as needed */
-  left: 15px; /* adjust as needed */
+  right: 15px; /* adjust as needed */
   z-index: 1;
-  padding-top: 25px;
+  padding-top: 350px;
 }
 
-.blue-box h1 {
+.blue-box-rb h1 {
   position: absolute;
 
-  top: 50%; /* vertical center */
+  top: 75%; /* vertical center */
   left: 50%; /* horizontal center */
   transform: translate(-50%, -50%); /* center alignment */
   color: white;
