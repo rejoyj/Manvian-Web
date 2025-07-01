@@ -1,0 +1,43 @@
+.main {
+  position: relative;
+  display: inline-block;
+  left: 25px;
+}
+
+.container {
+    
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.blue-box {
+  position: absolute;
+  top: 70px; /* adjust as needed */
+  left: 15px; /* adjust as needed */
+  z-index: 1;
+  padding-top: 25px;
+}
+
+.blue-box h1 {
+  position: absolute;
+
+  top: 50%; /* vertical center */
+  left: 50%; /* horizontal center */
+  transform: translate(-50%, -50%); /* center alignment */
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container p {
+  position: absolute;
+  bottom: 45px;
+  left: 25px; /* Adjust as needed */
+  color: black;
+  font-size: 21px;
+  max-width: 80%;
+  z-index: 2;
+}
