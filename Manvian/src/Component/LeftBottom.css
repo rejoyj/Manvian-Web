@@ -35,8 +35,8 @@ right: 100px;
 
 .blue-box-lb h1 {
   position: absolute;
-  top: 75%; /* vertical center */
-  left: 50%; /* horizontal center */
+  top: 78%; /* vertical center */
+  left: 49%; /* horizontal center */
   transform: translate(-50%, -50%); /* center alignment */
   color: white;
   font-size: 30px;
