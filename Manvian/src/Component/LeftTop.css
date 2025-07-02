@@ -36,8 +36,8 @@
 
 .container p {
   position: absolute;
-  bottom: 45px;
-  left: 30px; /* Adjust as needed */
+  bottom: 95px;
+  left: 50px; /* Adjust as needed */
   color: black;
   font-size: 21px;
   max-width: 80%;

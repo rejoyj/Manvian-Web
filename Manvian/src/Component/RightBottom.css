@@ -22,7 +22,7 @@
 
 .blue-box-rb {
   position: absolute;
-  top: -10px; 
+  top: -30px; 
   right: 15px; 
   z-index: 1;
   padding-top: 350px;
@@ -42,7 +42,7 @@
 .container-rb p {
   position: absolute;
   top: 45px;
-  right: 25px; /* Adjust as needed */
+  right: 40px; /* Adjust as needed */
   color: black;
   font-size: 17px;
   max-width: 80%;

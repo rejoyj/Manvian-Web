@@ -1,5 +1,6 @@
 import React from "react";
 import "./LeftTop.css";
+import 'animate.css';
 
 const LeftTop = () => {
   return (
@@ -10,17 +11,14 @@ const LeftTop = () => {
             To be a global force for good - To inspire a world where businesses
             are built not just to succeed, but to serve by redefining the way
             the world does business by building ventures that focus on people ,
-            planet and purpose by creating lasting value. (We envision a world
-            where growth is not just measured by numbers, but by the value we
-            create for communities, the opportunities we unlock for individuals,
-            and the positive impact we leave on the planet.)
+            planet and purpose by creating lasting value.
           </p>
           <img src="\src\assets\image.png" alt="" width={669} height={636} />
         </div>
         <div className="icon">
           <img src="\src\assets\Icon.png" alt="" width={182} height={182} className="rocket-icon" />
         </div>
-        <div className="blue-box">
+        <div className="blue-box animate__animated animate__backInLeft">
           <img
             src="\src\assets\bluebox.png "
             alt=""

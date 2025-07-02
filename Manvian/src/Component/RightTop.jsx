@@ -1,5 +1,6 @@
 import React from "react";
 import "./RightTop.css";
+import 'animate.css';
 
 const RightTop = () => {
   return (
@@ -25,7 +26,7 @@ const RightTop = () => {
         <div className="icon-rt">
           <img src="\src\assets\icon2.png" alt="" width={182} height={182} className="target-icon"/>
         </div>
-        <div className="blue-box-rt">
+        <div className="blue-box-rt animate__animated animate__backInRight">
           <img
             src="\src\assets\bluebox.png "
             alt=""

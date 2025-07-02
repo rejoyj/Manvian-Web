@@ -1,4 +1,5 @@
 
+import 'animate.css';
 
 import React from 'react'
 import LeftTop from './Component/LeftTop'
