@@ -16,12 +16,12 @@ const RightBottom = () => {
         <div className="container-rb" ref={containerRef}>
           <p>
            <ul className="value-list">
-  <li>Create Pathways & Opportunities</li>
-  <li>Empower Diverse Entrepreneurs</li>
-  <li>Champion Equity & Inclusion</li>
-  <li>Foster Women Empowerment</li>
-  <li>Drive Sustainable Impact</li>
-  <li>Deliver Scalable Growth</li>
+  <li>Integrity and Trust</li>
+  <li>Vision with Action</li>
+  <li>Ecosystem Empowerment</li>
+  <li>Innovation for Impact</li>
+  <li>People-Centric Growth</li>
+  <li>Sustainability-Minded</li>
 </ul>
           </p>
           <img
