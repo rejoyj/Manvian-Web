@@ -9,12 +9,12 @@ const RightBottom = () => {
         <div className="container-rb">
           <p>
             <ul>
-              <li>Integrity and Trust <br />We believe in doing the right thing, always. Our work is grounded in ethics, transparency, and trust.</li>
+              <li>Integrity and Trust </li>
               
-              <li>Vision with Action <br />We don’t just strategize — we execute. Bold thinking meets meticulous delivery to bring powerful ideas to life.</li>
+              <li>Vision with Action </li>
               
-              <li>Ecosystem Empowerment <br/>We grow businesses by uplifting the people, communities, and systems they touch.</li>
-              <li>Innovation for Impact <br /> We embrace change and lead with creativity, continuously evolving to deliver meaningful results.</li>
+              <li>Ecosystem Empowerment </li>
+              <li>Innovation for Impact </li>
               <li>People-Centric Growth</li>
               <li>Sustainability-Minded</li>
             </ul>

@@ -40,15 +40,18 @@
 }
 
 .container-rb p {
+  margin-bottom: 3px;
   position: absolute;
-  top: 45px;
-  right: 40px; /* Adjust as needed */
+  top: 65px;
+  right: 300px; /* Adjust as needed */
   color: black;
-  font-size: 17px;
+  font-size: 21px;
   max-width: 80%;
   z-index: 2;
 }
-
+.container-rb p ul li{
+  margin-bottom: 20px;
+}
 .icon-bounce {
   animation: bounceInBottom 1.5s infinite ease-out forwards;
 }
