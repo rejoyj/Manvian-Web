@@ -22,8 +22,8 @@ const RightTop = () => {
             style={{ transform: "rotate(90deg)", transformOrigin: "center" }}
           />
         </div>
-        <div className="icon-left">
-          <img src="\src\assets\icon2.png" alt="" width={182} height={182} />
+        <div className="icon-rt">
+          <img src="\src\assets\icon2.png" alt="" width={182} height={182} className="target-icon"/>
         </div>
         <div className="blue-box-rt">
           <img

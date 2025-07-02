@@ -48,3 +48,24 @@
   max-width: 80%;
   z-index: 2;
 }
+
+.icon-bounce {
+  animation: bounceInBottom 1.5s infinite ease-out forwards;
+}
+
+@keyframes bounceInBottom {
+  0% {
+    transform: translateY(50px) scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-20px) scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(10px) scale(0.97);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}

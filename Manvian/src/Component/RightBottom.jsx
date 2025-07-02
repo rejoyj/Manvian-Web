@@ -31,7 +31,7 @@ We build businesses that care — for the environment, for society, and for the 
           <img src="\src\assets\image.png" alt="" width={669} height={636} style={{ transform: 'rotate(180deg)', transformOrigin: 'center' }} />
         </div>
           <div className="icon-bottom">
-          <img src="\src\assets\icon3.png" alt="" width={182} height={182} />
+          <img src="\src\assets\icon3.png" alt="" width={182} height={182} className="icon-bounce"/>
         </div>
         <div className="blue-box-rb">
           <img

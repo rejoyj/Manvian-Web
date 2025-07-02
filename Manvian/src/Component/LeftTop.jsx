@@ -18,7 +18,7 @@ const LeftTop = () => {
           <img src="\src\assets\image.png" alt="" width={669} height={636} />
         </div>
         <div className="icon">
-          <img src="\src\assets\Icon.png" alt="" width={182} height={182} />
+          <img src="\src\assets\Icon.png" alt="" width={182} height={182} className="rocket-icon" />
         </div>
         <div className="blue-box">
           <img
