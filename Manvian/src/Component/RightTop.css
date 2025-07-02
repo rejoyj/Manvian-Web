@@ -13,15 +13,7 @@
 
 .blue-box-rt {
   position: absolute;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   top: 20px; /* adjust as needed */
-=======
-  top: 15px; /* adjust as needed */
->>>>>>> Stashed changes
-=======
-  top: 15px; /* adjust as needed */
->>>>>>> Stashed changes
   right: 0px; /* adjust as needed */
   z-index: 1;
   padding-top: 20px;
