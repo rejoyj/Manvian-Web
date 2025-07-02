@@ -1,12 +1,20 @@
 import React from "react";
 import "./LeftTop.css";
 import 'animate.css';
+import { useInView } from 'react-intersection-observer';
+
 
 const LeftTop = () => {
+
+   const { ref: containerRef, inView } = useInView({
+    triggerOnce: false,  
+    threshold: 0.3,      
+  });
+
   return (
     <>
       <div className="main">
-        <div className="container">
+        <div className="container" ref={containerRef}>
           <p>
             To be a global force for good - To inspire a world where businesses
             are built not just to succeed, but to serve by redefining the way
@@ -18,7 +26,7 @@ const LeftTop = () => {
         <div className="icon">
           <img src="\src\assets\Icon.png" alt="" width={182} height={182} className="rocket-icon" />
         </div>
-        <div className="blue-box animate__animated animate__backInLeft">
+        <div className={`blue-box animate__animated ${inView ? 'animate__backInLeft' : 'hide-blue-box'}`}>
           <img
             src="\src\assets\bluebox.png "
             alt=""

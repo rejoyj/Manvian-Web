@@ -1,23 +1,28 @@
 import React from "react";
 import "./RightBottom.css";
 import "animate.css";
+import { useInView } from 'react-intersection-observer';
 
 const RightBottom = () => {
+
+   const { ref: containerRef, inView } = useInView({
+        triggerOnce: false,  
+        threshold: 0.3,      
+      });
+
   return (
     <>
       <div className="main">
-        <div className="container-rb">
+        <div className="container-rb" ref={containerRef}>
           <p>
-            <ul>
-              <li>Integrity and Trust </li>
-              
-              <li>Vision with Action </li>
-              
-              <li>Ecosystem Empowerment </li>
-              <li>Innovation for Impact </li>
-              <li>People-Centric Growth</li>
-              <li>Sustainability-Minded</li>
-            </ul>
+           <ul className="value-list">
+  <li>Create Pathways & Opportunities</li>
+  <li>Empower Diverse Entrepreneurs</li>
+  <li>Champion Equity & Inclusion</li>
+  <li>Foster Women Empowerment</li>
+  <li>Drive Sustainable Impact</li>
+  <li>Deliver Scalable Growth</li>
+</ul>
           </p>
           <img
             src="\src\assets\image.png"
@@ -36,7 +41,7 @@ const RightBottom = () => {
             className="icon-bounce"
           />
         </div>
-        <div className="blue-box-rb animate__animated animate__backInRight">
+        <div className={`blue-box-rb animate__animated ${inView ? 'animate__backInRight' : 'hide-blue-box-rb'}`}>
           <img
             src="\src\assets\bluebox.png "
             alt=""

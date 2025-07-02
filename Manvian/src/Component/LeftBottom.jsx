@@ -1,34 +1,28 @@
 import React from "react";
 import "./LeftBottom.css";
 import "animate.css";
+import { useInView } from 'react-intersection-observer';
 
 const LeftBottom = () => {
+  
+     const { ref: containerRef, inView } = useInView({
+      triggerOnce: false,  
+      threshold: 0.3,      
+    });
+  
   return (
     <>
       <div className="main">
-        <div className="container-lb">
+        <div className="container-lb" ref={containerRef}>
           <p>
-            <strong>
-              At Manvian, we’re driven by clear objectives: <br />
-            </strong>
-            <ul>
-              <li>
-                Create Pathways & Opportunity Unlocking entrepreneurial
-                potential for all—regardless of background.
-              </li>
-              <li>
-                Empower Diverse Entrepreneurs Championing women empowerment,
-                equity, and inclusive growth.
-              </li>
-              <li>
-                Drive Positive Impact Advancing sustainable practices and
-                community upliftment.
-              </li>
-              <li>
-                Deliver Measurable Growth Ensuring ROI, scalability, and lasting
-                market leadership
-              </li>
-            </ul>
+            <ul className="value-list">
+  <li>Opportunity Creation</li>
+  <li>Entrepreneurial Empowerment</li>
+  <li>Inclusive Growth</li>
+  <li>Women & Youth Upliftment</li>
+  <li>Sustainable Impact</li>
+  <li>Scalable Growth & ROI</li>
+</ul>
           </p>
           <img
             src="\src\assets\image.png"
@@ -47,7 +41,7 @@ const LeftBottom = () => {
             className="wave-animation"
           />
         </div>
-        <div className="blue-box-lb animate__animated animate__backInLeft">
+        <div className={`blue-box-lb animate__animated ${inView ? 'animate__backInLeft' : 'hide-blue-box-lb'}`}>
           <img
             src="\src\assets\bluebox.png "
             alt=""
